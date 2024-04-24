@@ -19,3 +19,4 @@ done
 
 echo "File count: $FILECOUNT"
 echo "Directory count: $DIRCOUNT"
+echo "bye"
