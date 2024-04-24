@@ -11,14 +11,14 @@ on:
 
 jobs:
   hello:
-    # runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: hello world
         run: echo "Hello world"
         shell: bash
   linter:
-    # runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: Super-Linter
@@ -26,7 +26,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   goodbye:
-    # runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: goodbye world
         run: echo "Goodbye world"
