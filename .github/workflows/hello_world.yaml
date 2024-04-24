@@ -17,6 +17,11 @@ jobs:
       - name: hello world
         run: echo "Hello world"
         shell: bash
+  linter:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Super-Linter
+        uses: super-linter/super-linter@v5.7.2
   goodbye:
     runs-on: ubuntu-latest
     steps:
