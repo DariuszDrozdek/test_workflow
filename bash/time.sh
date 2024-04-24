@@ -19,4 +19,4 @@ function error_exit {
 # of the LINENO environment variable. It contains the current
 # line number.
 echo "Example of error with line number and message"
-error_exit "$LINENO: An error has occurred."
+error_exit "$LINENOs: An error has occurred."
