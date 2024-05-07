@@ -18,8 +18,8 @@
 - Generate token
 
 5. Clone your repository to PC using **GIT**
-6. Create directory **\.github\workflows** in the tepository
-7. Create YAML file in \.github\workflows e.g. hello_world.yaml
+6. Create directory **\\.github\workflows** in the repository
+7. Create **YAML** file in \.github\workflows e.g. **hello_world.yaml**
 8. Add content to the YAML file
 ```
 name: Hello world workflow
@@ -50,7 +50,7 @@ jobs:
 ```
 9. Commit and push changes to your repository
 10. Check github action section in GitHub
-11. Add Linter section to the hello_world.yaml file
+11. Add Linter in **jobs** section to the **hello_world.yaml** file
 ``` 
   linter:
     runs-on: ubuntu-latest
